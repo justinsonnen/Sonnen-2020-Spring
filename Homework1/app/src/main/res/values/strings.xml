@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="first_name_hint">First Word or First Digit</string>
+    <string name="last_name_hint">Second Word or Second Digit</string>
+    <string name="concat_button">Concatenate</string>
+    <string name="add_button">Add</string>
+
+</resources>
