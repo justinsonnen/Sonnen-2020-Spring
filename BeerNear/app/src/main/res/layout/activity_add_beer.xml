@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorClouds"
+    tools:context=".activity.AddBeerActivity">
+
+    <EditText
+        android:id="@+id/addBreweryNameId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="@string/add_brewery"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorMidnight"
+        android:textColorHint="@color/colorEmerald"
+        android:fontFamily="@font/bevan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addBeerNameId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/add_beer_name"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorMidnight"
+        android:textColorHint="@color/colorEmerald"
+        android:fontFamily="@font/bevan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBreweryNameId" />
+
+    <EditText
+        android:id="@+id/addBeerLookId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/add_beer_look"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorMidnight"
+        android:textColorHint="@color/colorEmerald"
+        android:fontFamily="@font/bevan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBeerNameId" />
+
+    <EditText
+        android:id="@+id/addBeerSmellId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/add_beer_smell"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorMidnight"
+        android:textColorHint="@color/colorEmerald"
+        android:fontFamily="@font/bevan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBeerLookId" />
+
+
+    <EditText
+        android:id="@+id/addBeerTasteId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/add_beer_taste"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorMidnight"
+        android:textColorHint="@color/colorEmerald"
+        android:fontFamily="@font/bevan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBeerSmellId" />
+
+    <Button
+        android:id="@+id/addTheBeerButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="@color/colorClouds"
+        android:text="@string/add_the_beer_button"
+        android:textColor="@color/colorSunflower"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bevan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBeerTasteId" />
+</androidx.constraintlayout.widget.ConstraintLayout>

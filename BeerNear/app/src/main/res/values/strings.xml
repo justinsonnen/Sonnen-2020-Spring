@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BeerNear</string>
+
+    <string name="title_activity_beer_notes_input">BeerNotesInput</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="input_brewery">what\'s the name of the brewery?</string>
+    <string name="input_beer_name">what\'s the name of this beer?</string>
+    <string name="input_beer_look">how does it look?</string>
+    <string name="input_beer_smell">how does it smell?</string>
+    <string name="input_beer_taste">most importantly, how does it tatse?!</string>
+    <string name="save_beer_button">add beer</string>
+    <string name="saveBeerButton" />
+    <string name="add_brewery">what\'s the name of the brewery?</string>
+    <string name="add_beer_name">what\'s the name of this beer?</string>
+    <string name="add_beer_look">how does it look?</string>
+    <string name="add_beer_smell">how does it smell?</string>
+    <string name="add_beer_taste">most importantly, how does it taste?!</string>
+    <string name="add_the_beer_button">add beer</string>
+    <string name="image_description">Icon of a Beer</string>
+    <string name="menu_title">Add Beer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Paddy and Seamus work at the Guinness factory and Seamus has a horrible accident and dies at work. Paddy agrees to tell Seamus wife the bad news. He knocks on the door and Seamus wife answers. \" Whats happened Paddy?\"  Paddy frowns. \" Im sorry to say poor Seamus fell into the Guinness vat and drowned, im so sorry.\" She started to cry and asked paddy: \" Did he at least die quickly?\" Seamus shook his head, \" No, he got out 3 times for a pee.\"</string>
+    <string name="brew_buddy">Brew Buddy</string>
+
+</resources>
